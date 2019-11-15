@@ -85,4 +85,9 @@ public class ProfileActivity extends AppCompatActivity {
         intent.putExtra("msg","cerrarSesion");
         startActivity(intent);
     }
+
+    public void gotoRegisters(View view) {
+        Intent intent = new Intent(this, RegistersActivity.class);
+        startActivity(intent);
+    }
 }
